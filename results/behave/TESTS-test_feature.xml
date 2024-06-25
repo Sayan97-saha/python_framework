@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="0.0009999275207519531" tests='1' skipped='0'
+name="Test_Feature" failures='0' errors='0'><testcase time="0.0009999275207519531" name="Test_Scenario_--_@1.1_" status="passed"
+         classname="Test_Feature"><system-out>
+            <![CDATA[
+            @scenario.begin
+                @test_run
+                scenario: Test Scenario -- @1.1 
+                given User is preparing to test test_1 ... Status.passed in 0.0s 
+                when test_step_2 ... Status.passed in 0.0s 
+                then test_step_3 ... Status.passed in 0.0009999s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase></testsuite>

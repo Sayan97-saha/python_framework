@@ -1,0 +1,8 @@
+Feature: Test Feature # features/test_feature.feature:1
+
+  @test_run
+  Scenario Outline: Test Scenario -- @1.1   # features/test_feature.feature:11
+    Given User is preparing to test test_1  # steps/stepdef.py:7
+    When test_step_2                        # steps/stepdef.py:13
+    Then test_step_3                        # steps/stepdef.py:17
+
